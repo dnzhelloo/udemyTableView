@@ -1,19 +1,11 @@
-//
-//  ViewController.swift
-//  udemyTableView
-//
-//  Created by Deniz on 1/24/23.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var countriesTableView : UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 
